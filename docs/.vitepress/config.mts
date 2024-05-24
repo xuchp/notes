@@ -26,7 +26,7 @@ export default defineConfig({
       SearchPlugin(options)
     ]
   },
-  base: '/all/',
+  base: '/notes/',
   title: '丶冫氵灬',
   description: 'blog',
   themeConfig: {
