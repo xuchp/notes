@@ -1,8 +1,8 @@
 /*
  * @Date: 2023-12-22 15:22:22
- * @LastEditTime: 2024-03-21 16:34:36
+ * @LastEditTime: 2024-05-24 18:38:14
  * @Description:
- * @FilePath: /undefined/Users/xuchengpeng/Documents/Vue/docs/.vitepress/config.mts
+ * @FilePath: \xuchp.github.io\docs\.vitepress\config.mts
  */
 import { defineConfig } from 'vitepress'
 import autoSidebar from 'amtf-vitepress-auto-sidebar'
@@ -26,6 +26,7 @@ export default defineConfig({
       SearchPlugin(options)
     ]
   },
+  base: '/all/',
   title: '丶冫氵灬',
   description: 'blog',
   themeConfig: {
